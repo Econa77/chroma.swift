@@ -38,7 +38,7 @@ extension NSColor {
 
 // MARK: - Hex
 extension Color {
-    public func toHexString() -> String {
+    public func toHexString(isIncludeAlpha: Bool = true) -> String {
         let rgbColor = toRGBColor()
         let red = Int(rgbColor.red * 255)
         let green = Int(rgbColor.green * 255)
@@ -47,7 +47,7 @@ extension Color {
         let redHexString = "\(String(format: "%02x", red))"
         let greenHexString = "\(String(format: "%02x", green))"
         let blueHexString = "\(String(format: "%02x", blue))"
-        let alphaHexString = "\(String(format: "%02x", alpha))"
+        let alphaHexString = (isIncludeAlpha) ? "\(String(format: "%02x", alpha))" : ""
         return "#\(redHexString)\(greenHexString)\(blueHexString)\(alphaHexString)"
     }
 }
