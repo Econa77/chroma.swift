@@ -33,6 +33,12 @@
 		097D499C2142824E00C942FF /* LABColorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097D499A2142824E00C942FF /* LABColorTests.swift */; };
 		097D499E214287C300C942FF /* ColorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097D499D214287C300C942FF /* ColorTests.swift */; };
 		097D499F214287C300C942FF /* ColorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097D499D214287C300C942FF /* ColorTests.swift */; };
+		097D49A12142891D00C942FF /* Chroma.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097D49A02142891D00C942FF /* Chroma.swift */; };
+		097D49A22142891D00C942FF /* Chroma.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097D49A02142891D00C942FF /* Chroma.swift */; };
+		097D49A52142899400C942FF /* Scale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097D49A42142899400C942FF /* Scale.swift */; };
+		097D49A62142899400C942FF /* Scale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097D49A42142899400C942FF /* Scale.swift */; };
+		097D49A821428A9400C942FF /* ColorSpace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097D49A721428A9400C942FF /* ColorSpace.swift */; };
+		097D49A921428A9400C942FF /* ColorSpace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097D49A721428A9400C942FF /* ColorSpace.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +79,9 @@
 		097D499521427C3D00C942FF /* CGFloatExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGFloatExtensions.swift; sourceTree = "<group>"; };
 		097D499A2142824E00C942FF /* LABColorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LABColorTests.swift; sourceTree = "<group>"; };
 		097D499D214287C300C942FF /* ColorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTests.swift; sourceTree = "<group>"; };
+		097D49A02142891D00C942FF /* Chroma.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chroma.swift; sourceTree = "<group>"; };
+		097D49A42142899400C942FF /* Scale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scale.swift; sourceTree = "<group>"; };
+		097D49A721428A9400C942FF /* ColorSpace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSpace.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +143,8 @@
 			children = (
 				097D49732142463700C942FF /* ColorSpaces */,
 				097D497221414EB700C942FF /* Extensions */,
+				097D49A32142898C00C942FF /* Models */,
+				097D49A02142891D00C942FF /* Chroma.swift */,
 				097D492F21414CC800C942FF /* chroma.h */,
 				097D493021414CC800C942FF /* Info.plist */,
 			);
@@ -167,6 +178,7 @@
 		097D49732142463700C942FF /* ColorSpaces */ = {
 			isa = PBXGroup;
 			children = (
+				097D49A721428A9400C942FF /* ColorSpace.swift */,
 				097D497A2142468F00C942FF /* ColorConvertible.swift */,
 				097D49742142464000C942FF /* RGBColor.swift */,
 				097D49762142464800C942FF /* XYZColor.swift */,
@@ -181,6 +193,14 @@
 				097D499521427C3D00C942FF /* CGFloatExtensions.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		097D49A32142898C00C942FF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				097D49A42142899400C942FF /* Scale.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -358,10 +378,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				097D49752142464000C942FF /* RGBColor.swift in Sources */,
+				097D49A821428A9400C942FF /* ColorSpace.swift in Sources */,
 				097D497B2142468F00C942FF /* ColorConvertible.swift in Sources */,
 				097D49792142465200C942FF /* LABColor.swift in Sources */,
 				097D49772142464800C942FF /* XYZColor.swift in Sources */,
 				097D497D2142544300C942FF /* CGFloatExtensions.swift in Sources */,
+				097D49A12142891D00C942FF /* Chroma.swift in Sources */,
+				097D49A52142899400C942FF /* Scale.swift in Sources */,
 				097D49862142692900C942FF /* ColorExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -384,10 +407,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				097D498821426A7700C942FF /* RGBColor.swift in Sources */,
+				097D49A921428A9400C942FF /* ColorSpace.swift in Sources */,
 				097D498A21426A7700C942FF /* XYZColor.swift in Sources */,
 				097D49802142560000C942FF /* CGFloatExtensions.swift in Sources */,
 				097D498B21426A7900C942FF /* ColorConvertible.swift in Sources */,
 				097D49872142692900C942FF /* ColorExtensions.swift in Sources */,
+				097D49A22142891D00C942FF /* Chroma.swift in Sources */,
+				097D49A62142899400C942FF /* Scale.swift in Sources */,
 				097D498921426A7700C942FF /* LABColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
