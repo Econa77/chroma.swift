@@ -30,7 +30,8 @@ extension NSColor {
                    green: UnsafeMutablePointer<CGFloat>?,
                    blue: UnsafeMutablePointer<CGFloat>?,
                    alpha: UnsafeMutablePointer<CGFloat>?) {
-        getRed(red, green: green, blue: blue, alpha: alpha)
+        guard let color = usingColorSpace(.sRGB) else { return }
+        color.getRed(red, green: green, blue: blue, alpha: alpha)
     }
 }
 #endif
