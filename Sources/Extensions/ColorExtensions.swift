@@ -36,6 +36,23 @@ extension NSColor {
 }
 #endif
 
+// MARK: - Hex
+extension Color {
+    public func toHexString() -> String {
+        let rgbColor = toRGBColor()
+        let red = Int(rgbColor.red * 255)
+        let green = Int(rgbColor.green * 255)
+        let blue = Int(rgbColor.blue * 255)
+        let alpha = Int(rgbColor.alpha * 255)
+        let redHexString = "\(String(format: "%02x", red))"
+        let greenHexString = "\(String(format: "%02x", green))"
+        let blueHexString = "\(String(format: "%02x", blue))"
+        let alphaHexString = "\(String(format: "%02x", alpha))"
+        return "#\(redHexString)\(greenHexString)\(blueHexString)\(alphaHexString)"
+    }
+}
+
+// MARK: - Color Convertible
 extension Color: ColorConvertible {
     public func toRGBColor() -> RGBColor {
         var red = CGFloat(0)
