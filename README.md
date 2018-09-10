@@ -10,7 +10,7 @@
 ## Usage
 ### CocoaPods
 ```
-pod 'Chroma.swift', :git => 'https://github.com/Econa77/chroma.swift.git'
+pod 'chroma.swift', :git => 'https://github.com/Econa77/chroma.swift.git'
 ```
 
 ### Carthage
