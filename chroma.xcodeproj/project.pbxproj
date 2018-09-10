@@ -39,6 +39,8 @@
 		097D49A62142899400C942FF /* Scale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097D49A42142899400C942FF /* Scale.swift */; };
 		097D49A821428A9400C942FF /* ColorSpace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097D49A721428A9400C942FF /* ColorSpace.swift */; };
 		097D49A921428A9400C942FF /* ColorSpace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097D49A721428A9400C942FF /* ColorSpace.swift */; };
+		097D49AB2146403200C942FF /* ScaleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097D49AA2146403200C942FF /* ScaleTests.swift */; };
+		097D49AC2146403200C942FF /* ScaleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097D49AA2146403200C942FF /* ScaleTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,7 +63,6 @@
 /* Begin PBXFileReference section */
 		097D492F21414CC800C942FF /* chroma.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chroma.h; sourceTree = "<group>"; };
 		097D493021414CC800C942FF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		097D493421414CCF00C942FF /* chromaTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = chromaTests.swift; sourceTree = "<group>"; };
 		097D493521414CCF00C942FF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		097D493F21414DD300C942FF /* chroma.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = chroma.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		097D494721414DD300C942FF /* chromaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = chromaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -82,6 +83,7 @@
 		097D49A02142891D00C942FF /* Chroma.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chroma.swift; sourceTree = "<group>"; };
 		097D49A42142899400C942FF /* Scale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scale.swift; sourceTree = "<group>"; };
 		097D49A721428A9400C942FF /* ColorSpace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSpace.swift; sourceTree = "<group>"; };
+		097D49AA2146403200C942FF /* ScaleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,7 +162,7 @@
 				097D498C2142755A00C942FF /* RGBColorTests.swift */,
 				097D499121427A9100C942FF /* XYZColorTests.swift */,
 				097D499A2142824E00C942FF /* LABColorTests.swift */,
-				097D493421414CCF00C942FF /* chromaTests.swift */,
+				097D49AA2146403200C942FF /* ScaleTests.swift */,
 				097D493521414CCF00C942FF /* Info.plist */,
 			);
 			path = Tests;
@@ -396,6 +398,7 @@
 				097D499221427A9100C942FF /* XYZColorTests.swift in Sources */,
 				097D499E214287C300C942FF /* ColorTests.swift in Sources */,
 				097D497F214255B900C942FF /* CGFloatTests.swift in Sources */,
+				097D49AB2146403200C942FF /* ScaleTests.swift in Sources */,
 				097D499B2142824E00C942FF /* LABColorTests.swift in Sources */,
 				097D499821427C4000C942FF /* CGFloatExtensions.swift in Sources */,
 				097D498F214275BB00C942FF /* RGBColorTests.swift in Sources */,
@@ -425,6 +428,7 @@
 				097D499321427A9100C942FF /* XYZColorTests.swift in Sources */,
 				097D499F214287C300C942FF /* ColorTests.swift in Sources */,
 				097D49812142560300C942FF /* CGFloatTests.swift in Sources */,
+				097D49AC2146403200C942FF /* ScaleTests.swift in Sources */,
 				097D499C2142824E00C942FF /* LABColorTests.swift in Sources */,
 				097D499921427C4100C942FF /* CGFloatExtensions.swift in Sources */,
 				097D4990214275BC00C942FF /* RGBColorTests.swift in Sources */,

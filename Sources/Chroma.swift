@@ -8,7 +8,12 @@
 
 import Foundation
 
-public final class Chroma {}
+public final class Chroma {
+
+    // MARK: - Initialize
+    public init() {}
+
+}
 
 // MARK: - Scale
 extension Chroma {

@@ -6,9 +6,11 @@
 //  Copyright © 2018年 Shunsuke Furubayashi. All rights reserved.
 //
 
-import Foundation
+import CoreGraphics
 
 public protocol ColorConvertible {
+    var alpha: CGFloat { get }
+
     func toRGBColor() -> RGBColor
     func toLABColor() -> LABColor
     func toXYZColor() -> XYZColor

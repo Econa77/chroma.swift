@@ -54,6 +54,10 @@ extension Color {
 
 // MARK: - Color Convertible
 extension Color: ColorConvertible {
+    public var alpha: CGFloat {
+        return toRGBColor().alpha
+    }
+
     public func toRGBColor() -> RGBColor {
         var red = CGFloat(0)
         var green = CGFloat(0)

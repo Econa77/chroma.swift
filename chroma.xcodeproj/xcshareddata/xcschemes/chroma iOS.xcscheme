@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "097D493E21414DD300C942FF"
-               BuildableName = "chroma_iOS.framework"
+               BuildableName = "chroma.framework"
                BlueprintName = "chroma iOS"
                ReferencedContainer = "container:chroma.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "097D494621414DD300C942FF"
-               BuildableName = "chroma iOSTests.xctest"
+               BuildableName = "chromaTests.xctest"
                BlueprintName = "chroma iOSTests"
                ReferencedContainer = "container:chroma.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "097D493E21414DD300C942FF"
-            BuildableName = "chroma_iOS.framework"
+            BuildableName = "chroma.framework"
             BlueprintName = "chroma iOS"
             ReferencedContainer = "container:chroma.xcodeproj">
          </BuildableReference>
@@ -65,7 +65,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "097D493E21414DD300C942FF"
-            BuildableName = "chroma_iOS.framework"
+            BuildableName = "chroma.framework"
             BlueprintName = "chroma iOS"
             ReferencedContainer = "container:chroma.xcodeproj">
          </BuildableReference>
@@ -83,7 +83,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "097D493E21414DD300C942FF"
-            BuildableName = "chroma_iOS.framework"
+            BuildableName = "chroma.framework"
             BlueprintName = "chroma iOS"
             ReferencedContainer = "container:chroma.xcodeproj">
          </BuildableReference>

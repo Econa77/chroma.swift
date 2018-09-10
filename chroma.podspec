@@ -1,9 +1,9 @@
 Pod::Spec.new do |spec|
-  spec.name = 'chroma'
+  spec.name = 'chroma.swift'
   spec.version  = '0.0.1'
   spec.author = { 'Econa77' => 's.f.1992.ip@gmail.com' }
   spec.homepage = 'https://github.com/Econa77/chroma.swift'
-  spec.summary = ''
+  spec.summary = '[WIP] Swift version of Chroma.js( https://github.com/gka/chroma.js )'
   spec.source = { :git => 'https://github.com/Econa77/chroma.swift.git', :tag => "v#{spec.version}" }
   spec.license = { :type => 'BSD-3-Clause', :file => 'LICENSE' }
   spec.requires_arc = true
