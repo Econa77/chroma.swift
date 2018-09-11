@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name = 'chroma.swift'
-  spec.version  = '0.0.2'
+  spec.version  = '0.0.3'
   spec.author = { 'Econa77' => 's.f.1992.ip@gmail.com' }
   spec.homepage = 'https://github.com/Econa77/chroma.swift'
   spec.summary = '[WIP] Swift version of Chroma.js( https://github.com/gka/chroma.js )'
