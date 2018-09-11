@@ -79,3 +79,10 @@ extension Color: ColorConvertible {
         return self
     }
 }
+
+// MARK: - CGColor
+extension Collection where Element: Color {
+    public var cgColors: [CGColor] {
+        return map { $0.cgColor }
+    }
+}
