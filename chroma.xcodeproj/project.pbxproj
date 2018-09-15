@@ -41,6 +41,9 @@
 		097D49A921428A9400C942FF /* ColorSpace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097D49A721428A9400C942FF /* ColorSpace.swift */; };
 		097D49AB2146403200C942FF /* ScaleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097D49AA2146403200C942FF /* ScaleTests.swift */; };
 		097D49AC2146403200C942FF /* ScaleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097D49AA2146403200C942FF /* ScaleTests.swift */; };
+		09C16492214D122D00DF43C3 /* Darken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C16491214D122D00DF43C3 /* Darken.swift */; };
+		09C16493214D130C00DF43C3 /* Darken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C16491214D122D00DF43C3 /* Darken.swift */; };
+		09C16495214D132300DF43C3 /* DarkenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C16494214D132300DF43C3 /* DarkenTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +87,8 @@
 		097D49A42142899400C942FF /* Scale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scale.swift; sourceTree = "<group>"; };
 		097D49A721428A9400C942FF /* ColorSpace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSpace.swift; sourceTree = "<group>"; };
 		097D49AA2146403200C942FF /* ScaleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleTests.swift; sourceTree = "<group>"; };
+		09C16491214D122D00DF43C3 /* Darken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Darken.swift; sourceTree = "<group>"; };
+		09C16494214D132300DF43C3 /* DarkenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkenTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +150,7 @@
 			children = (
 				097D49732142463700C942FF /* ColorSpaces */,
 				097D497221414EB700C942FF /* Extensions */,
+				09C16490214D121900DF43C3 /* Options */,
 				097D49A32142898C00C942FF /* Models */,
 				097D49A02142891D00C942FF /* Chroma.swift */,
 				097D492F21414CC800C942FF /* chroma.h */,
@@ -163,6 +169,7 @@
 				097D499121427A9100C942FF /* XYZColorTests.swift */,
 				097D499A2142824E00C942FF /* LABColorTests.swift */,
 				097D49AA2146403200C942FF /* ScaleTests.swift */,
+				09C16494214D132300DF43C3 /* DarkenTests.swift */,
 				097D493521414CCF00C942FF /* Info.plist */,
 			);
 			path = Tests;
@@ -203,6 +210,14 @@
 				097D49A42142899400C942FF /* Scale.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		09C16490214D121900DF43C3 /* Options */ = {
+			isa = PBXGroup;
+			children = (
+				09C16491214D122D00DF43C3 /* Darken.swift */,
+			);
+			path = Options;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -381,6 +396,7 @@
 			files = (
 				097D49752142464000C942FF /* RGBColor.swift in Sources */,
 				097D49A821428A9400C942FF /* ColorSpace.swift in Sources */,
+				09C16492214D122D00DF43C3 /* Darken.swift in Sources */,
 				097D497B2142468F00C942FF /* ColorConvertible.swift in Sources */,
 				097D49792142465200C942FF /* LABColor.swift in Sources */,
 				097D49772142464800C942FF /* XYZColor.swift in Sources */,
@@ -399,6 +415,7 @@
 				097D499E214287C300C942FF /* ColorTests.swift in Sources */,
 				097D497F214255B900C942FF /* CGFloatTests.swift in Sources */,
 				097D49AB2146403200C942FF /* ScaleTests.swift in Sources */,
+				09C16495214D132300DF43C3 /* DarkenTests.swift in Sources */,
 				097D499B2142824E00C942FF /* LABColorTests.swift in Sources */,
 				097D499821427C4000C942FF /* CGFloatExtensions.swift in Sources */,
 				097D498F214275BB00C942FF /* RGBColorTests.swift in Sources */,
@@ -411,6 +428,7 @@
 			files = (
 				097D498821426A7700C942FF /* RGBColor.swift in Sources */,
 				097D49A921428A9400C942FF /* ColorSpace.swift in Sources */,
+				09C16493214D130C00DF43C3 /* Darken.swift in Sources */,
 				097D498A21426A7700C942FF /* XYZColor.swift in Sources */,
 				097D49802142560000C942FF /* CGFloatExtensions.swift in Sources */,
 				097D498B21426A7900C942FF /* ColorConvertible.swift in Sources */,
