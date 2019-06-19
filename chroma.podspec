@@ -7,7 +7,7 @@ Pod::Spec.new do |spec|
   spec.source = { :git => 'https://github.com/Econa77/chroma.swift.git', :tag => "v#{spec.version}" }
   spec.license = { :type => 'BSD-3-Clause', :file => 'LICENSE' }
   spec.requires_arc = true
-  spec.source_files = 'Sources/*.swift'
+  spec.source_files = 'Sources/**/*.{swift}'
   spec.ios.deployment_target = '9.0'
   spec.osx.deployment_target = '10.9'
   spec.frameworks = 'CoreGraphics'
